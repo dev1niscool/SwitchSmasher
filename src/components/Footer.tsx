@@ -1,0 +1,84 @@
+export function Footer() {
+  return (
+    <footer className="mt-auto pt-8 pb-4 text-center text-sm text-base-content/60">
+      <div className="divider"></div>
+
+      <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 mb-4">
+        <a
+          href="https://github.com/dev1niscool/SwitchSmasher"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          Source Code
+        </a>
+        <a
+          href="https://github.com/ctcaer/hekate/releases"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          Hekate
+        </a>
+        <a
+          href="https://github.com/Atmosphere-NX/Atmosphere"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          Atmosphere
+        </a>
+        <a
+          href="https://github.com/atlas44/web-fusee-launcher"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          Fusee Launcher
+        </a>
+      </div>
+
+      <p className="text-xs">
+        Credits:{' '}
+        <a
+          href="https://github.com/reubenjds/webrcm"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          WebRCM by reubenjds
+        </a>
+        {' '}&bull;{' '}
+        <a
+          href="https://github.com/webrcm/webrcm.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          webrcm
+        </a>
+        {' '}&bull;{' '}
+        <a
+          href="https://github.com/atlas44/web-fusee-launcher"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link link-hover"
+        >
+          web-fusee-launcher
+        </a>
+      </p>
+
+      <p className="text-xs mt-2">
+        For educational and homebrew purposes only. Use at your own risk.
+      </p>
+
+      <p className="text-xs mt-2 text-gray-400">
+        Current Hekate on Switch: Hekate 6.5.4
+      </p>
+
+      <p className="text-xs mt-1">
+        MIT License
+      </p>
+    </footer>
+  );
+}
